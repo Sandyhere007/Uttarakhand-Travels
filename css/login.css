@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: #000 0 2px 3px ;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../images/nainital.png);
+	/* background-position: center; */
+	background-size: cover;
+  background-attachment: fixed;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #111;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #29d9d5;
+  border-radius: 5rem;
+}
+
+/* navbar starts */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1.5rem 9%;
+    overflow: hidden;
+  }
+  
+  .header .navbar a {
+    font-size: 1.7rem;
+    color: #aaa;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  .header .navbar a:hover {
+    color: #29d9d5;
+  }
+  
+  .header .btn {
+    margin-top: 0;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  .logo i {
+    color: #29d9d5;
+    padding-right: .5rem;
+  }
+  
+  #menu-btn {
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+  }
+  
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #29d9d5;
+  border: 0.2rem solid #29d9d5;
+  border-radius: 5rem;
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover {
+  background: #29d9d5;
+  color: #111;
+}
+
+  /* nav bar ends  */
+.full-page
+{
+    /* margin-top: 80px; */
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../images/nainital.png);
+	/* background-position: center; */
+	background-size: cover;
+  background-attachment: fixed;
+	position: relative;
+}
+
+a
+{
+    text-decoration: none;
+    color: #29d9d5;
+    font-weight: 900;
+    font-size: 20px;
+}
+#login-form
+{
+    display: flex;
+    margin-top: 80px;
+}
+.form-box
+{
+    width:380px;
+	height:720px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0, 0, 0, 0.493);
+	padding:10px;
+    overflow: hidden;
+}
+h2{
+    margin: 10px 90px 0px 90px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 6px 12px ;
+    background-color: #29d9d5;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #29d9d5;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+::placeholder{
+    font-size: 16px;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #29d9d5;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+    margin-top: 18px;
+    margin-bottom: 20px;
+	background: #29d9d5;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:14px;
+	/* bottom:68px; */
+	/* position:absolute; */
+}
+#login
+{
+	left:50px;
+}
+#register
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+
+#register input
+{
+	color:white;
+	font-size: 15;
+}
